@@ -4,3 +4,6 @@ package-lock.json
 package.json
 
 node_modules
+
+# Ignore md file with imp info
+connection_steps.md
