@@ -2,7 +2,10 @@
 // delete records
 
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://admin:cLoud_management2021@cluster0.lwwzv.mongodb.net/sample_analytics?retryWrites=true&w=majority";
+// var password = prompt("Please enter the password: ");
+// var database = prompt("Please enter the db name: ");
+
+const uri = `mongodb+srv://admin:${password}@cluster0.lwwzv.mongodb.net/${database}?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 
 
