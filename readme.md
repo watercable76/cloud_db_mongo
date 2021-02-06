@@ -15,7 +15,7 @@ I will be analyzing a sample database that I created online and then populated w
 
 ## Youtube Link
 
-[Software Demo Video](https://youtu.be/gvyfMaEIxns)
+[Software Demo Video](https://youtu.be/bjJu2wbvH70)
 
 <p>&nbsp;</p>
 
