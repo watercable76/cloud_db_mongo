@@ -9,7 +9,7 @@ const uri = `mongodb+srv://admin:${password}@cluster0.lwwzv.mongodb.net/${databa
 const client = new MongoClient(uri, { poolSize: 100, useUnifiedTopology: true, useNewUrlParser: true });
 
 
-// need at least 10 people in db.
+// need at least 5 people in db.
 // 3 from rexburg
 // 3 engineers
 // at least 2 retired
@@ -20,7 +20,7 @@ async function run() {
     await client.connect();
     console.log("Connected correctly to server");
 
-    const db = client.db('transaction_db');
+    const db = client.db(database);
     const col = db.collection('user1');
 
     let people = [{

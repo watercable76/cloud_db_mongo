@@ -14,7 +14,7 @@ async function run() {
         await client.connect();
         console.log("Connected correctly to server");
 
-        const db = client.db('transaction_db');
+        const db = client.db(database);
         const col = db.collection('user1');
 
         // query for ppl who make more than 100000

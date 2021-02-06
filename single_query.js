@@ -15,12 +15,12 @@ async function run() {
         await client.connect();
         console.log("Connected correctly to server");
 
-        const db = client.db('transaction_db');
+        const db = client.db(database);
         const col = db.collection('user1');
 
         // query for person 'Bob'
         console.log("Looking for Bob!");
-        const query = {"age": 44};
+        const query = {age: 44};
         // project let's you specify which items to not include
         // 1 for true and 0 for false?
         const cursor = col.find(query).project({_id: 0});
