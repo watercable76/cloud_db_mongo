@@ -97,7 +97,7 @@ async function run() {
     ];
 
     const result = await col.insertMany(people);
-    console.dir(result.insertedCount);
+    console.log(result.insertedCount + ' tables inserted into the database.');
 
   } catch (err) {
     console.log(err.stack);

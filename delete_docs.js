@@ -16,10 +16,9 @@ async function run() {
         const db = client.db(database);
         const col = db.collection('user1');
 
-        const persons = {pay: {$gt: 10}};
+        const persons = { pay: { $gt: 10 } };
         const deletManyResult = await col.deleteMany(persons);
-
-        console.dir(deletManyResult.deletedCount);
+        console.log(deletManyResult.deletedCount + ' tables deleted.')
     } catch (err) {
         console.log(err.stack);
     } finally {
