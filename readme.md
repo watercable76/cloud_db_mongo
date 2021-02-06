@@ -1,16 +1,55 @@
-Here is an introduction to how to start and work with MongoDB.
+ # Overview 
 
-1. Navigate to command prompt
-2. Move to "C:\Program Files\MongoDB\Server\4.4\data" folder
-3. Run 'mongod'. This will start hosting the server on the host
-4. In a separate command prompt, run 'mongo'. This will connect to the server.
+<p>&nbsp;</p>
 
-## To get started:  
-[Quick Start](https://docs.mongodb.com/drivers/node/quick-start)  
-Create folder and storage area.
-Run 'npm init -y' This will create a file named package.json
-Run 'npm install mongodb' This will install all packages
+## Description
+This online database allows the user to store and access data hosted by a website. MongoDB is hard to set up,  
+but can be very easy to use when it is set up.  
+
+<p>&nbsp;</p>
+
+## Purpose 
+I will be analyzing a sample database that I created online and then populated with node.js.  
+
+<p>&nbsp;</p>
+
+## Youtube Link
+
+[Software Demo Video](https://youtu.be/gvyfMaEIxns)
+
+<p>&nbsp;</p>
+
+# Development Environment
+
+<p>&nbsp;</p>
+
+## Tools Used
+
+The text editor I used is Visual Studio Code, as well as GitHub. I downloaded Git and connected the repo  
+to my VS Code. This way I can write content while ensuring it works and is visually easier to work with.  
+
+<p>&nbsp;</p>
+
+### The packages downloaded are here
+1. [Node.js](https://nodejs.org/en/download/) - Install this software to your computer. This will be a version manager used to install node.js.
+2. Run 'npm init -y' which will create a package.json file.  
+3. Run 'npm install mongodb' to install the MongoDB driver to the package file.  
+
+<p>&nbsp;</p>
 
 ## Connect to the database
-Copy the connection string and save it in an important place (I saved it in a gitignore file for mine)
-Create a 'index.js' file and use the code listed. Replace the connection string and password with the correct ones.  
+Copy the connection string and save it in an important place (I saved it in a gitignore file for mine).  
+Create a 'index.js' file and use the code listed. Replace the connection string and password with the correct ones. 
+
+<p>&nbsp;</p>
+
+## Programming Language
+I used node.js for this project. I will include the steps to download the package below.   
+
+
+<p>&nbsp;</p>
+
+# Useful Websites
+
+[Install node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)  
+[Install Mongo Driver](https://docs.mongodb.com/drivers/node/quick-start#install-node-and-npm)
