@@ -7,3 +7,6 @@ node_modules
 
 # Ignore md file with imp info
 connection_steps.md
+
+# Ignore passwords file with passwords
+passwords.js
